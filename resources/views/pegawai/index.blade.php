@@ -1,4 +1,4 @@
-@extends('layout.app')
+@extends('layouts.app')
 
 @sectio('content')
 <h3>Daftar Pegawai</h3>

@@ -13,6 +13,10 @@ return new class extends Migration
     {
         Schema::create('pegawais', function (Blueprint $table) {
             $table->id();
+            $table->string('nama');
+            $table->integer('nip');
+            $table->text('jabatan');
+
             $table->timestamps();
         });
     }
